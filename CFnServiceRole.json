@@ -70,7 +70,8 @@
 		},
 		{
 			"Action": [
-				"cloudformation:Create_Update"
+				"cloudformation:CHANGE_SET_CREATE",
+				"cloudformation:CHANGE_SET_EXECUTE"
 			],
 			"Resource": [
 				"arn:aws:cloudformation:us-east-1:aws:transform/Serverless-2016-10-31"
